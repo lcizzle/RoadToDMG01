@@ -38,3 +38,4 @@ If anyone above, GoWin, SiPEED, Terasic, and/or Altair would like to sponsor thi
 * Added Knight Rider LED 01 Design
 * Added AND Gate LED 01 Design
 * Added Basic Gates LED 01 Design
+* Added Seven Segment Decoder 01 Design

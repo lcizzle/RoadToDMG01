@@ -6,3 +6,4 @@ blink_led_01
 knight_rider_led_01
 and_gate_led_01
 basic_gates_led_01
+seven_seg_decoder_01
