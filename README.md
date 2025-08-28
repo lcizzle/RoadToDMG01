@@ -39,3 +39,4 @@ If anyone above, GoWin, SiPEED, Terasic, and/or Altair would like to sponsor thi
 * Added AND Gate LED 01 Design
 * Added Basic Gates LED 01 Design
 * Added Seven Segment Decoder 01 Design
+* Added UART TX 01 Design
