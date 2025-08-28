@@ -36,3 +36,5 @@ If anyone above, GoWin, SiPEED, Terasic, and/or Altair would like to sponsor thi
 * Added Enable LED 01 Design
 * Added Blink LED 01 Design
 * Added Knight Rider LED 01 Design
+* Added AND Gate LED 01 Design
+
