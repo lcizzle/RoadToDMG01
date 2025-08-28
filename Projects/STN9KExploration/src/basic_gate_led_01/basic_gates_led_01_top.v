@@ -1,6 +1,6 @@
 `timescale 1ns / 10ps
 
-module basic_gates_led_01
+module basic_gates_led_01_top
     (
         input wire btn_a_n,
         input wire btn_b_n,
