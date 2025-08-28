@@ -1,6 +1,6 @@
 `timescale 1ns / 10ps               // Timescale for simulation?
 
-module knight_rider_led_01          // Module declaration
+module knight_rider_led_01_top      // Module declaration
     (
         input wire          clk,    // Clock input
         output reg [5:0]    led     // 6 LED outputs
