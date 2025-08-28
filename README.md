@@ -32,3 +32,7 @@ If anyone above, GoWin, SiPEED, Terasic, and/or Altair would like to sponsor thi
 * GoWin DSim Studio Tutorial Project - Completed
 * Tested Altair DSim Studio - Working
 * Set Quartus Prime and GoWin EDA to use Visual Studio Code for the editor with DSim Studio and Verilog-HDL Plugins
+* Added STN9KExploration Project
+* Added Enable LED 01 Design
+* Added Blink LED 01 Design
+* Added Knight Rider LED 01 Design
