@@ -11,6 +11,10 @@ module knight_rider_led_01          // Module declaration
     // The board has a 27Mhz oscillator chip on pin 52
     // Don't forget to set the timing constraints and assign a clock divider
     // Counter that counts to 27,000,000
+    
+    // *** This should be a 25-bit counter but for whatever reason GoWin EDA throwing a warning.
+    // *** WARN  (EX3791) : Expression size 26 truncated to fit in target size 25
+    // *** Need to revisit this.
     reg [31:0] count = 0;           // 32-bit counter
     reg dir = 0;                    // Direction flag
     reg [5:0] pattern = 6'b000001;  // LED pattern
