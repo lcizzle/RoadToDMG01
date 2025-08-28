@@ -10,6 +10,8 @@
         <File path="src/blink_led_01.v" type="file.verilog" enable="0"/>
         <File path="src/enable_led_01.v" type="file.verilog" enable="0"/>
         <File path="src/knight_rider_led_01.v" type="file.verilog" enable="0"/>
+        <File path="src/seven_seg_decoder_01.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
         <File path="src/STN9KExploration.cst" type="file.cst" enable="1"/>
         <File path="src/STN9KExploration.sdc" type="file.sdc" enable="1"/>
     </FileList>
