@@ -2,5 +2,5 @@
 //All rights reserved.
 //File Title: Timing Constraints file
 //Tool Version: V1.9.11.03 (64-bit) 
-//Created Time: 2025-08-29 06:00:39
-create_clock -name clk_osc -period 37.037 -waveform {0 18.518} [get_ports {clk_in}]
+//Created Time: 2025-08-29 06:27:28
+create_clock -name clk_osc -period 37.037 -waveform {0 18.518} [get_ports {clk}]
