@@ -16,7 +16,7 @@ I'm not 100% sure what the target board will be yet but I am leaning in the dire
 
 If anyone above, GoWin, SiPEED, Terasic, and/or Altair would like to sponsor this project please let me know!
 
-# Date: 08/20/2025
+# Date: 08/28/2025
 * Repo Setup
 * Project Setup (There will probably be more than one)
 * This readme, probably the most time consuming part of the whole project.
@@ -40,3 +40,7 @@ If anyone above, GoWin, SiPEED, Terasic, and/or Altair would like to sponsor thi
 * Added Basic Gates LED 01 Design
 * Added Seven Segment Decoder 01 Design
 * Added UART TX 01 Design
+
+# Date: 08/29/2025
+* Added BSRAM LED 01 Design
+
