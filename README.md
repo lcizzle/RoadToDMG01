@@ -43,4 +43,4 @@ If anyone above, GoWin, SiPEED, Terasic, and/or Altair would like to sponsor thi
 
 # Date: 08/29/2025
 * Added BSRAM LED 01 Design
-
+* Added SSRAM LED 01 Design
