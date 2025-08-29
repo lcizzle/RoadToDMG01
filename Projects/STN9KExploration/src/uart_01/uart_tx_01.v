@@ -45,9 +45,9 @@ module uart_tx_01
                 counter <= 0;
                 tx <= shift_reg[0]; // Output current bit
                 shift_reg <= {1'b1, shift_reg[9:1]}; // Shift right, fill with 1s
-                bit_idx <= bit_idx + 1;
+                bit_idx <= bit_idx + 1'd1;
                 
-                if(bit_idx == 9)
+                if(bit_idx == 4'd9)
                 begin
                     busy <= 0; // Transmission complete
                 end

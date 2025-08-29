@@ -6,8 +6,8 @@ module uart_tx_01_top
         input wire rst_n,       // PIN 4
 
         // UART
-        output wire uart_txd,
-        output wire uart_rxd
+        output wire uart_txd
+        //output wire uart_rxd
     );
 
     // UART
@@ -50,7 +50,7 @@ module uart_tx_01_top
                 end
                 else
                 begin
-                    delay_counter <= delay_counter + 1;
+                    delay_counter <= delay_counter + 1'd1;
                 end
             end
             else if (tx_send)
