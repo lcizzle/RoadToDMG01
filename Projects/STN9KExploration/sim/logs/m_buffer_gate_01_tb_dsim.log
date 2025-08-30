@@ -1,4 +1,4 @@
-=N:[UsageMeter (2025-08-31 02:47:15 Korea Standard Time)] usage server initial connection
+=N:[UsageMeter (2025-08-31 04:28:22 Korea Standard Time)] usage server initial connection
 =N:[License] 
 Licensed for Altair DSim Cloud.
 =N:[License] New lease granted.
@@ -7,16 +7,19 @@ Elaborating...
   Top-level modules:
     $unit
     m_buffer_gate_01_tb
+=W:[SVInVerilog]:
+    SystemVerilog constructs encountered at the following locations    
+    in Verilog code:                                                   
+
+    ..\src\modules\m_buffer_gate_01.v:9:12    continuous assignment to variable    
+
   Found 5 unique specialization(s) of 5 design element(s).
 Optimizing...
 Building models...
 PLI/VPI access: +b 
 Simulation time precision is 10ps.
   [1/5] module $root: 98 functions, 231 basic blocks
-  [2/5] module $pkgs: 1 functions, 2 basic blocks
-  [3/5] CU scope $unit: 1 functions, 2 basic blocks
   [4/5] module m_buffer_gate_01_tb: 4 functions, 14 basic blocks
-  [5/5] package std: 23 functions, 64 basic blocks
 Linking image.so...
 Using default typical min/typ/max.
 =S:Begin run-time elaboration and static initialization...

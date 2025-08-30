@@ -1,4 +1,4 @@
-=N:[UsageMeter (2025-08-31 03:37:34 Korea Standard Time)] usage server initial connection
+=N:[UsageMeter (2025-08-31 04:29:12 Korea Standard Time)] usage server initial connection
 =N:[License] 
 Licensed for Altair DSim Cloud.
 =N:[License] New lease granted.
@@ -7,6 +7,12 @@ Elaborating...
   Top-level modules:
     $unit
     m_xnor_gate_01_tb
+=W:[SVInVerilog]:
+    SystemVerilog constructs encountered at the following locations    
+    in Verilog code:                                                   
+
+    ..\src\modules\m_xnor_gate_01.v:10:8    continuous assignment to variable    
+
   Found 5 unique specialization(s) of 5 design element(s).
 Optimizing...
 Building models...

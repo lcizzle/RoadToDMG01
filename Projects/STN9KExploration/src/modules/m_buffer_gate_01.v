@@ -2,8 +2,8 @@
 
 module m_buffer_gate_01
     (
-        input      A,
-        output     B
+        input wire  A,
+        output reg  B
     );
 
     assign B = A;

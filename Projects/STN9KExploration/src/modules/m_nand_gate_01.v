@@ -2,9 +2,9 @@
 
 module m_nand_gate_01
 (
-    input   A,
-    input   B,
-    output  X
+    input wire  A,
+    input wire  B,
+    output reg  X
 );
 
 assign X = ~(A & B);
