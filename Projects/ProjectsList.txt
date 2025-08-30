@@ -10,3 +10,4 @@ seven_seg_decoder_01
 uart_01
 bsram_led_01
 ssram_led_01
+subled_cpu_01
