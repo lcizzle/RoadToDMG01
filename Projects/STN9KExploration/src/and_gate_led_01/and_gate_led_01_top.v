@@ -5,7 +5,7 @@ module and_gate_led_01_top
         input wire btn_a_n,
         input wire btn_b_n,
 
-        output wire led_out_n
+        output reg led_out_n
     );
 
     // Buttons and LEDs are active LOW.
