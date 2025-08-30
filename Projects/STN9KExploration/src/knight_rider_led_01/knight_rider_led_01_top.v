@@ -2,7 +2,7 @@
 
 module knight_rider_led_01_top      // Module declaration
     (
-        input wire          clk,    // Clock input
+        input wire          clk_in, // Clock input
         output reg [5:0]    led     // 6 LED outputs
     );
 
@@ -20,7 +20,7 @@ module knight_rider_led_01_top      // Module declaration
     reg [5:0] pattern = 6'b000001;  // LED pattern
 
     // Always block
-    always @(posedge clk) begin
+    always @(posedge clk_in) begin
         if (count == 27_000_000 / CLOCK_DIV - 1) begin
             count <= 0;             // Reset counter
             

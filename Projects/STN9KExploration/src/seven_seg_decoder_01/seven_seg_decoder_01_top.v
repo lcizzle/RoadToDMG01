@@ -2,7 +2,7 @@
 
 module seven_seg_decoder_01_top
     (
-        input wire clk,
+        input wire clk_in,
         input wire rst_n,
 
         // Seven Segment LED
@@ -12,7 +12,7 @@ module seven_seg_decoder_01_top
     // Seven Segment Display
     reg [24:0] counter = 0; // 25-bit counter
     reg [3:0] hex_value = 4'h0; // 4-bit hex value for 7-seg display
-    reg [9:0] decimal_value = 10'd8; // 10-bit decimal value for display
+    reg [9:0] decimal_value; // 10-bit decimal value for display
 
     // Setup Seven Segment Decoder
     seven_seg_decoder_01 u_sev_seg_decoder_01
@@ -21,7 +21,7 @@ module seven_seg_decoder_01_top
             .seg_n(seg_n)
         );
 
-    always @(posedge clk or negedge rst_n) begin
+    always @(posedge clk_in or negedge rst_n) begin
         if(!rst_n) begin
             counter <= 0;
             hex_value <= 4'h0;
@@ -35,10 +35,10 @@ module seven_seg_decoder_01_top
             if (decimal_value == 10'd9) begin
                 decimal_value <= 10'd0;
             end else begin
-                decimal_value <= decimal_value + 1;
+                decimal_value <= decimal_value + 1'd1;
             end
         end else begin
-            counter <= counter + 1;
+            counter <= counter + 1'd1;
         end
     end
 
