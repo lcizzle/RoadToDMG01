@@ -2,10 +2,11 @@
 
 module enable_led_01_top
     (
-        output wire     led
+        output wire [5:0]    led
     );
 
-    //assign led = 1'b0;
-    assign led = 1'b1;
+    // LEDs are active LOW
+    assign led = 6'b000000;       // LEDs ON
+    //assign led = 6'b111111;     // LEDs OFF
 
 endmodule
