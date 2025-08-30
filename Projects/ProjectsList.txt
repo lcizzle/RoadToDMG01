@@ -11,3 +11,7 @@ uart_01
 bsram_led_01
 ssram_led_01
 subled_cpu_01
+
+* STP20KExploration ((S)iPEED (T)ang (P)rimer 20K Exploration)
+
+enable_led_01

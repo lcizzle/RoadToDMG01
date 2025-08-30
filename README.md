@@ -12,7 +12,7 @@ I have 4 FPGA boards available for this project.
 * Terasic DE-10 Lite
 * Terasic DE-10 Nano.
 
-I'm not 100% sure what the target board will be yet but I am leaning in the direction of SiPEED Tang Nano 9K or 20K because they are more affordable and more accessible to everyone. The DE-10 Lite is probably the best board to learn on out of the four, because of the various onboard items like buttons, switches, 7 segment leds, Arduino Shield, huge GPIO port but at the same time it also comes with a weird tooling burden of Quartus Prime that requires a certain veresion for everything to function and it not being a full featured version. GoWin EDA, used with the SiPEED Tang Nano products is decent but lacks simulation capabilities. Luckily Altair has a product called DSim Studio that is fully featured and free but limited to 1 simulation job or something like that.
+I'm not 100% sure what the target board will be yet but I am leaning in the direction of SiPEED Tang Nano 9K or 20K because they are more affordable and more accessible to everyone. The DE-10 Lite is probably the best board to learn on out of the four, because of the various onboard items like buttons, switches, 7 segment leds, Arduino Shield, huge GPIO port but at the same time it also comes with a weird tooling burden of Quartus Prime that requires a certain veresion for everything to function and it not being a full featured version. GoWin EDA, used with the SiPEED Tang Nano products is decent but lacks simulation capabilities. Luckily Altair has a product called DSim Studio that is fully featured and free but limited to 1 simulation job or something like that. 
 
 If anyone above, GoWin, SiPEED, Terasic, and/or Altair would like to sponsor this project please let me know!
 
@@ -47,3 +47,6 @@ If anyone above, GoWin, SiPEED, Terasic, and/or Altair would like to sponsor thi
 
 # Date: 08/30/2025
 * Added SUBLEQ CPU 01 Design
+
+
+# Note: Going to start adding some test benches. Altair DSim takes a little bit of setup so I may not use it immediately. I have a version of ModelSim installed along side Quartus Prime so i'll probably use that initially. Should also look up some open source Simulators but haven't had time to research them.
