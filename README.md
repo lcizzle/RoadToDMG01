@@ -47,6 +47,9 @@ If anyone above, GoWin, SiPEED, Terasic, and/or Altair would like to sponsor thi
 
 # Date: 08/30/2025
 * Added SUBLEQ CPU 01 Design
+* Added Altair DSim test benches for the following...
+    * m_buffer_gate_01
+    * m_and_gate_01
 
 
 # Note: Going to start adding some test benches. Altair DSim takes a little bit of setup so I may not use it immediately. I have a version of ModelSim installed along side Quartus Prime so i'll probably use that initially. Should also look up some open source Simulators but haven't had time to research them.

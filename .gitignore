@@ -4,3 +4,10 @@
 # GoWin EDA Specifics
 *.gprj.user
 impl/
+
+# Altair DSim
+dsim.env
+dvlcom.env
+dvlcom.log
+metrics.db
+dsim_work/
