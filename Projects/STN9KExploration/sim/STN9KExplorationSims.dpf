@@ -30,6 +30,14 @@ simulations:
     options: >-
       -top work.m_nor_gate_01_tb -L dut +acc+b -waves
       waves/m_nor_gate_01_tb_waves.mxd -l logs/m_nor_gate_01_tb_dsim.log
+  - name: Sim Modules XOR Gate 01
+    options: >-
+      -top work.m_xor_gate_01_tb -L dut +acc+b -waves
+      waves/m_xor_gate_01_tb_waves.mxd -l logs/m_xor_gate_01_tb_dsim.log
+  - name: Sim Modules XNOR Gate 01
+    options: >-
+      -top work.m_xnor_gate_01_tb -L dut +acc+b -waves
+      waves/m_xnor_gate_01_tb_waves.mxd -l logs/m_xnor_gate_01_tb_dsim.log
 source_files:
   - language: verilog
     path: ..\src\dsim_files_list.txt

@@ -1,15 +1,19 @@
-# Design Files
+# Design Files - Modules
 modules/m_buffer_gate_01.v
 modules/m_inverter_gate_01.v
 modules/m_and_gate_01.v
 modules/m_nand_gate_01.v
 modules/m_or_gate_01.v
 modules/m_nor_gate_01.v
+modules/m_xor_gate_01.v
+modules/m_xnor_gate_01.v
 
-# Testbench Files
+# Testbench Files - Modules
 testbenches/modules/m_buffer_gate_01_tb.v
 testbenches/modules/m_inverter_gate_01_tb.v
 testbenches/modules/m_and_gate_01_tb.v
 testbenches/modules/m_nand_gate_01_tb.v
 testbenches/modules/m_or_gate_01_tb.v
 testbenches/modules/m_nor_gate_01_tb.v
+testbenches/modules/m_xor_gate_01_tb.v
+testbenches/modules/m_xnor_gate_01_tb.v

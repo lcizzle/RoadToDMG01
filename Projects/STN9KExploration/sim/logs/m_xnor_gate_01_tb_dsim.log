@@ -1,0 +1,33 @@
+=N:[UsageMeter (2025-08-31 03:37:34 Korea Standard Time)] usage server initial connection
+=N:[License] 
+Licensed for Altair DSim Cloud.
+=N:[License] New lease granted.
+Analyzing...
+Elaborating...
+  Top-level modules:
+    $unit
+    m_xnor_gate_01_tb
+  Found 5 unique specialization(s) of 5 design element(s).
+Optimizing...
+Building models...
+PLI/VPI access: +b 
+Simulation time precision is 10ps.
+  [1/5] module $root: 98 functions, 231 basic blocks
+  [4/5] module m_xnor_gate_01_tb: 5 functions, 21 basic blocks
+Linking image.so...
+Using default typical min/typ/max.
+=S:Begin run-time elaboration and static initialization...
+=N:[dumpMXD] preparing MXD dump to 'waves/m_xnor_gate_01_tb_waves.mxd'.
+=N:[dump] Dump started at time 0
+=N:Starting event scheduler...
+A B | X
+0 0 | 1
+0 1 | 0
+1 0 | 0
+1 1 | 1
+=N:[dumpMXD] closing MXD dump
+=T:Simulation terminated by $finish at time 37000 (..\src\testbenches\modules\m_xnor_gate_01_tb.v:28);
+Run directory: D:\Projects\RoadToDMG01\Projects\STN9KExploration\sim
+  System timescale is 10ps / 10ps
+  Altair DSim version: 2025.1.0 (b:R #c:449 h:df8da7d488 os:msys2_)
+  Random seed: (defaulted to 1)
