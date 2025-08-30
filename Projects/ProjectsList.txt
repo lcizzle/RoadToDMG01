@@ -16,3 +16,20 @@ subled_cpu_01
 
 enable_led_01
 blink_led_01
+
+* Modules
+
+m_buffer_gate_01
+m_inveter_gate_01
+m_and_gate_01
+m_nand_gate_01
+m_or_gate_01
+m_nor_gate_01
+
+* Test Benches
+m_buffer_gate_01_tb
+m_inveter_gate_01_tb
+m_and_gate_01_tb
+m_nand_gate_01_tb
+m_or_gate_01_tb
+m_nor_gate_01_tb

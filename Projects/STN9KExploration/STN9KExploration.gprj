@@ -13,6 +13,10 @@
         <File path="src/knight_rider_led_01/knight_rider_led_01_top.v" type="file.verilog" enable="0"/>
         <File path="src/modules/m_and_gate_01.v" type="file.verilog" enable="0"/>
         <File path="src/modules/m_buffer_gate_01.v" type="file.verilog" enable="0"/>
+        <File path="src/modules/m_inverter_gate_01.v" type="file.verilog" enable="0"/>
+        <File path="src/modules/m_nand_gate_01.v" type="file.verilog" enable="0"/>
+        <File path="src/modules/m_nor_gate_01.v" type="file.verilog" enable="0"/>
+        <File path="src/modules/m_or_gate_01.v" type="file.verilog" enable="0"/>
         <File path="src/seven_seg_decoder_01/seven_seg_decoder_01.v" type="file.verilog" enable="0"/>
         <File path="src/seven_seg_decoder_01/seven_seg_decoder_01_top.v" type="file.verilog" enable="0"/>
         <File path="src/ssram_led_01/ssram_led_01_top.v" type="file.verilog" enable="0"/>

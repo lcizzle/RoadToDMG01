@@ -1,0 +1,31 @@
+=N:[UsageMeter (2025-08-31 03:07:31 Korea Standard Time)] usage server initial connection
+=N:[License] 
+Licensed for Altair DSim Cloud.
+=N:[License] New lease granted.
+Analyzing...
+Elaborating...
+  Top-level modules:
+    $unit
+    m_and_gate_01_tb
+  Found 5 unique specialization(s) of 5 design element(s).
+Optimizing...
+Building models...
+PLI/VPI access: +b 
+Simulation time precision is 10ps.
+Linking image.so...
+Using default typical min/typ/max.
+=S:Begin run-time elaboration and static initialization...
+=N:[dumpMXD] preparing MXD dump to 'waves/m_and_gate_01_tb_waves.mxd'.
+=N:[dump] Dump started at time 0
+=N:Starting event scheduler...
+A B | X
+0 0 | 0
+0 1 | 0
+1 0 | 0
+1 1 | 1
+=N:[dumpMXD] closing MXD dump
+=T:Simulation terminated by $finish at time 26500 (..\src\testbenches\modules\m_and_gate_01_tb.v:27);
+Run directory: D:\Projects\RoadToDMG01\Projects\STN9KExploration\sim
+  System timescale is 10ps / 10ps
+  Altair DSim version: 2025.1.0 (b:R #c:449 h:df8da7d488 os:msys2_)
+  Random seed: (defaulted to 1)

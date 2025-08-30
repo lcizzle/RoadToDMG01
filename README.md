@@ -47,12 +47,22 @@ If anyone above, GoWin, SiPEED, Terasic, and/or Altair would like to sponsor thi
 
 # Date: 08/30/2025
 * Added SUBLEQ CPU 01 Design
-* Added Altair DSim test benches for the following...
-    * m_buffer_gate_01
-    * m_and_gate_01
-
+* m_buffer_gate_01
+* m_inveter_gate_01
+* m_and_gate_01
+* m_nand_gate_01
+* m_or_gate_01
+* m_nor_gate_01
 
 # Note: Going to start adding some test benches. Altair DSim takes a little bit of setup so I may not use it immediately. I have a version of ModelSim installed along side Quartus Prime so i'll probably use that initially. Should also look up some open source Simulators but haven't had time to research them.
+
+* Added Altair DSim test benches for the following...
+    * m_buffer_gate_01
+    * m_inveter_gate_01
+    * m_and_gate_01
+    * m_nand_gate_01
+    * m_or_gate_01
+    * m_nor_gate_01
 
 # Note: I wasn't going to add constraint files as to force myself to practice. If I revisited any projects I would need to recreate the various constraint files. I assumed this would help me remember to not forget constraint files in the future but in practice slightly annoying and not realisitic to force other people that view the repository to be able to recreate them. So now each Design will have constraint files and all you need to do is enable/disable the verilog file(s) and the constraint. For example. Enable LED 01 Design, enable enable_led_01_top.v and enable enable_led_01.cst constraint file.
 

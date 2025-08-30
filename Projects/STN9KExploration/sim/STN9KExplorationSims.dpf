@@ -1,0 +1,38 @@
+---
+# Note: The contents of this file are automatically generated.
+# Any changes made by hand may be overwritten.
+version: '0.2'
+work_dir: .
+design_root_dir: ../src
+simulations:
+  - name: Sim Modules Buffer Gate 01
+    options: >-
+      -top work.m_buffer_gate_01_tb -L dut +acc+b -waves
+      waves/m_buffer_gate_01_tb_waves.mxd -l logs/m_buffer_gate_01_tb_dsim.log
+  - name: Sim Modules Inverter Gate 01
+    options: >-
+      -top work.m_inverter_gate_01_tb -L dut +acc+b -waves
+      waves/m_inverter_gate_01_tb_waves.mxd -l
+      logs/m_inverter_gate_01_tb_dsim.log
+  - name: Sim Modules AND Gate 01
+    options: >-
+      -top work.m_and_gate_01_tb -L dut +acc+b -waves
+      waves/m_and_gate_01_tb_waves.mxd -l logs/m_and_gate_01_tb_dsim.log
+  - name: Sim Modules NAND Gate 01
+    options: >-
+      -top work.m_nand_gate_01_tb -L dut +acc+b -waves
+      waves/m_nand_gate_01_tb_waves.mxd -l logs/m_nand_gate_01_tb_dsim.log
+  - name: Sim Modules OR Gate 01
+    options: >-
+      -top work.m_or_gate_01_tb -L dut +acc+b -waves
+      waves/m_or_gate_01_tb_waves.mxd -l logs/m_or_gate_01_tb_dsim.log
+  - name: Sim Modules NOR Gate 01
+    options: >-
+      -top work.m_nor_gate_01_tb -L dut +acc+b -waves
+      waves/m_nor_gate_01_tb_waves.mxd -l logs/m_nor_gate_01_tb_dsim.log
+source_files:
+  - language: verilog
+    path: ..\src\dsim_files_list.txt
+    file_list: relative-to-file
+library_search_paths:
+  - $STD_LIBS\ieee93
