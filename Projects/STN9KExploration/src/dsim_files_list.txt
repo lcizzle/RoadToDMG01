@@ -1,3 +1,17 @@
+# Design Files - Designs
+and_gate_led_01/and_gate_led_01_top.v
+basic_gates_led_01/basic_gates_led_01_top.v
+blink_led_01/blink_led_01_top.v
+bsram_led_01/bsram_led_01_top.v
+enable_led_01/enable_led_01_top.v
+knight_rider_led_01/knight_rider_led_01_top.v
+seven_seg_decoder_01/seven_seg_decoder_01_top.v
+seven_seg_decoder_01/seven_seg_decoder_01.v
+ssram_led_01/ssram_led_01_top.v
+subleq_cpu_01/subleq_cpu_01_top.v
+uart_01/uart_tx_01_top.v
+uart_01/uart_tx_01.v
+
 # Design Files - Modules
 modules/m_buffer_gate_01.v
 modules/m_inverter_gate_01.v
