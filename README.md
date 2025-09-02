@@ -25,3 +25,4 @@ I'm not 100% sure what the target board will be yet but I am leaning in the dire
 
 # Date 09/02/2025
 * Added enable_led_01 design to STN9KExploration
+* Added enable_leds_01 design to STN9KExploration
