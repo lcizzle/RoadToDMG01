@@ -28,3 +28,4 @@ I'm not 100% sure what the target board will be yet but I am leaning in the dire
 * Added enable_leds_01 design to STN9KExploration
 * Added blink_led_01 design to STN9KExploration
 * Added blink_leds_01 design to STN9KExploration
+* Added knight_rider_leds_01 design to STN9KExploration
