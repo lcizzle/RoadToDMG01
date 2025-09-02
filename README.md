@@ -19,4 +19,9 @@ I'm not 100% sure what the target board will be yet but I am leaning in the dire
 * Repo Reset (Completed)
 * Installed GoWin EDA (Completed)
 * Replaced GoWin Programmer with SiPEED recommended version (Completed)
-* Setup Initial Project (Completed)
+* Setup Initial Project(s) (Completed)
+* Installed Altera / Intel Quartus Prime (Completed)
+* Setup Initial Project(s) (Completed)
+
+# Date 09/02/2025
+* Added enable_led_01 design to STN9KExploration
