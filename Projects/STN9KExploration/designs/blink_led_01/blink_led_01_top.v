@@ -1,6 +1,6 @@
 // Blink LED 01 TOP
 
-`include "counter.v"
+`include "../modules/counter.v"
 `include "blink_led_01.v"
 
 module blink_led_01_top
