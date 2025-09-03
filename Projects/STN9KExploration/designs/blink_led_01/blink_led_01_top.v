@@ -1,32 +1,29 @@
-// Blink LED 01
+// Blink LED 01 TOP
 
-module blink_led_01
+`include "counter.v"
+`include "blink_led_01.v"
+
+module blink_led_01_top
 (
     input wire          clk,
     input wire          rst,
+    output wire [24:0]  counter,
     output wire         led_n
 );
 
-reg [24:0]  counter;
+counter u_counter
+(
+    .clk(clk),
+    .rst(rst),
+    .counter(counter)
+);
 
-always @(posedge clk, negedge rst) begin
-    if (!rst)
-        counter <= 25'd0;
-    else if (counter < 25'd27_000_000)
-        counter <= counter + 1'b1;
-    else
-        counter <= 25'd0;
-end
-
-reg led;
-
-always @(posedge clk, negedge rst) begin
-    if (!rst)
-        led <= 1'b0;
-    else if (counter == 25'd27_000_000)
-        led <= ~led;
-end
-
-assign led_n = ~led;
+blink_led_01 u_blink_led_01
+(
+    .clk(clk),
+    .rst(rst),
+    .counter(counter),
+    .led_n(led_n)
+);
 
 endmodule
