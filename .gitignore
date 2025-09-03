@@ -48,3 +48,6 @@ impl/
 
 # Visual Studio Code
 .vscode/
+
+#
+_junk/
