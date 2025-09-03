@@ -1,11 +1,15 @@
 // Enable LED 01 TOP
 
+`include "enable_led_01.v"
+
 module enable_led_01_top
 (
-    output wire         led
+    output wire         led_n
 );
 
-// Enable LED - Active LOW
-assign led = 1'b0;
+enable_led_01 U_enable_led_01
+(
+    .led_n(led_n)
+);
 
 endmodule
