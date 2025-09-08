@@ -9,4 +9,4 @@ enable_led_01 u_enable_led_01
     .led_n(led_n)
 );
 
-endmodule;
+endmodule
