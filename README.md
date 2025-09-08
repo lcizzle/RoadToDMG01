@@ -34,3 +34,7 @@ I'm not 100% sure what the target board will be yet but I am leaning in the dire
 * Added enable_led_01 design to STP20KExploration
 * Added enable_leds_01 design to STP20KExploration
 * Added enable_led_01 design to TDE10LiteExploration
+* Added enable_leds_01 design to TDE10LiteExploration
+
+# Date 09/09/2025
+* Added switches_01 design to TDE10LiteExploration
