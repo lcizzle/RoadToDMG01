@@ -29,3 +29,6 @@ I'm not 100% sure what the target board will be yet but I am leaning in the dire
 * Added blink_led_01 design to STN9KExploration
 * Added blink_leds_01 design to STN9KExploration
 * Added knight_rider_leds_01 design to STN9KExploration
+
+# Date 09/08/2025
+* Added enable_led_01 design to STP20KExploration

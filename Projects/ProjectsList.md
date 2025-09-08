@@ -8,6 +8,7 @@ STN9KExploration ((S)iPEED (T)ang (N)ano 9K Exploration)
 * knight_rider_leds_01
 
 STP20KExploration ((S)iPEED (T)ang (P)rimer 20K Exploration)
+* enable_led_01
 
 TDE10LiteExploration ((T)erasic DE10 Lite Exploration)
 
