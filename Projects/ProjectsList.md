@@ -12,5 +12,6 @@ STP20KExploration ((S)iPEED (T)ang (P)rimer 20K Exploration)
 * enable_leds_01
 
 TDE10LiteExploration ((T)erasic DE10 Lite Exploration)
+* enable_led_01
 
 TDE10NanoExploration ((T)erasic DE10 Nano Exploration)
