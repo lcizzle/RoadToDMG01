@@ -9,8 +9,8 @@ I have 4 FPGA boards available for this project.
 
 * SiPEED Tang Nano 9K
 * SiPEED Tang Primer 20K with Board Ext and Board Lite
-* Terasic DE-10 Lite
-* Terasic DE-10 Nano.
+* Terasic DE-10 Lite (Removed)
+* Terasic DE-10 Nano. (Removed)
 
 I'm not 100% sure what the target board will be yet but I am leaning in the direction of SiPEED Tang Nano 9K or 20K because they are more affordable and more accessible to everyone. The DE10 Lite is probably the best board to learn on out of the four, because of the various onboard items like buttons, switches, 7 segment leds, Arduino Shield, huge GPIO port but at the same time it also comes with a massive tooling burden of Quartus Prime that requires a certain version for everything to function and all the features being locked behind an expensive paywall. GoWin EDA, used with the SiPEED Tang Nano products is decent but lacks simulation capabilities. Luckily Altair has a product called DSim Studio that is fully featured and free but limited to 1 simulation job or something like that. Need to explore Open-Source sim tools at some point in the near future.
 
@@ -38,3 +38,4 @@ I'm not 100% sure what the target board will be yet but I am leaning in the dire
 
 # Date 09/09/2025
 * Added switches_01 design to TDE10LiteExploration
+x Removed TDE10LiteExploration and TDE10NanoExploration getting distracted board jumping.
