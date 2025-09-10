@@ -1,4 +1,4 @@
-=N:[UsageMeter (2025-09-10 19:13:44 Korea Standard Time)] usage server initial connection
+=N:[UsageMeter (2025-09-10 20:26:01 Korea Standard Time)] usage server initial connection
 =N:[License] 
 Licensed for Altair DSim Cloud.
 =N:[License] New lease granted.
@@ -12,8 +12,6 @@ Optimizing...
 Building models...
 PLI/VPI access: +b 
 Simulation time precision is 10ps.
-  [1/6] module $root: 98 functions, 231 basic blocks
-  [4/6] module enable_leds_02_tb: 4 functions, 24 basic blocks
   [6/6] module enable_leds_02: 2 functions, 8 basic blocks
 Linking image.so...
 Using default typical min/typ/max.
@@ -22,17 +20,17 @@ Using default typical min/typ/max.
 =N:[dump] Dump started at time 0
 =N:Starting event scheduler...
 Time scale of (enable_leds_02_tb) is 1ns / 10ps
-Setting buttons to 00
-Time:500ns stim(btns_n):00 -> dut(leds_n):1001 -> actual:0110, expected:0110
-Setting buttons to 01
-Time:10500ns stim(btns_n):01 -> dut(leds_n):0010 -> actual:1101, expected:1101
-Setting buttons to 10
-Time:20500ns stim(btns_n):10 -> dut(leds_n):0011 -> actual:1100, expected:1100
-Setting buttons to 11
-Time:30500ns stim(btns_n):11 -> dut(leds_n):1110 -> actual:0001, expected:0001
-PASS: Logic test passed.
+Setting buttons 00
+Time:500ns stim(btns_n):00 -> DUT(leds_n):1001 -> actual:0110, expected:0110
+Setting buttons 01
+Time:11000ns stim(btns_n):01 -> DUT(leds_n):0010 -> actual:1101, expected:1101
+Setting buttons 10
+Time:21500ns stim(btns_n):10 -> DUT(leds_n):0011 -> actual:1100, expected:1100
+Setting buttons 11
+Time:32000ns stim(btns_n):11 -> DUT(leds_n):1110 -> actual:0001, expected:0001
+PASS: Logic checks passed.
 =N:[dumpMXD] closing MXD dump
-=T:Simulation terminated by $stop at time 40000 (..\..\testbench\enable_leds_02\enable_leds_02_tb.sv:23);
+=T:Simulation terminated by $stop at time 42000 (..\..\testbench\enable_leds_02\enable_leds_02_tb.sv:59);
 Run directory: D:\Projects\RoadToDMG01\Projects\STP20KExploration\sim\dsim
   System timescale is 10ps / 10ps
   Altair DSim version: 2025.1.0 (b:R #c:449 h:df8da7d488 os:msys2_)
