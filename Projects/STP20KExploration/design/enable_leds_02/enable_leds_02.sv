@@ -8,9 +8,12 @@ timeunit 1ns;
 timeprecision 10ps;
 
     always_comb begin
-        static logic a = ~btns_n[0];
-        static logic b = ~btns_n[1];
-        static logic [3:0] leds;
+        logic a;
+        logic b;
+        logic [3:0] leds;
+
+        a = ~btns_n[0];
+        b = ~btns_n[1];
 
         leds[0] = !a;
 		leds[1] =  b && a;
