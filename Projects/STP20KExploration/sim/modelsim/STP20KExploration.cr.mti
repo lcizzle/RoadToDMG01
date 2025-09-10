@@ -1,0 +1,71 @@
+D:/Projects/RoadToDMG01/Projects/STP20KExploration/testbench/enable_led_01/enable_led_01_tb.sv {1 {vlog -work work -vopt -sv -stats=none D:/Projects/RoadToDMG01/Projects/STP20KExploration/testbench/enable_led_01/enable_led_01_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module enable_led_01_tb
+
+Top level modules:
+	enable_led_01_tb
+
+} {} {}} D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/enable_leds_01/enable_leds_01.sv {1 {vlog -work work -vopt -sv -stats=none D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/enable_leds_01/enable_leds_01.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module enable_leds_01
+
+Top level modules:
+	enable_leds_01
+
+} {} {}} D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/enable_led_01/enable_led_01.sv {1 {vlog -work work -vopt -sv -stats=none D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/enable_led_01/enable_led_01.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module enable_led_01
+
+Top level modules:
+	enable_led_01
+
+} {} {}} D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/enable_leds_01/enable_leds_01_top.sv {1 {vlog -work work -vopt -sv -stats=none D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/enable_leds_01/enable_leds_01_top.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module enable_leds_01_top
+
+Top level modules:
+	enable_leds_01_top
+
+} {} {}} D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/enable_led_01/enable_led_01_top.sv {1 {vlog -work work -vopt -sv -stats=none D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/enable_led_01/enable_led_01_top.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module enable_led_01_top
+
+Top level modules:
+	enable_led_01_top
+
+} {} {}} D:/Projects/RoadToDMG01/Projects/STP20KExploration/testbench/clock_01/clock_01_tb.sv {1 {vlog -work work -vopt -sv -stats=none D:/Projects/RoadToDMG01/Projects/STP20KExploration/testbench/clock_01/clock_01_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module clock_01_tb
+
+Top level modules:
+	clock_01_tb
+
+} {} {}} D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/clocks_01/clocks_01.sv {1 {vlog -work work -vopt -sv -stats=none D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/clocks_01/clocks_01.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module clocks_01
+
+Top level modules:
+	clocks_01
+
+} {} {}} D:/Projects/RoadToDMG01/Projects/STP20KExploration/testbench/enable_leds_01/enable_leds_01_tb.sv {1 {vlog -work work -vopt -sv -stats=none D:/Projects/RoadToDMG01/Projects/STP20KExploration/testbench/enable_leds_01/enable_leds_01_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module enable_leds_01_tb
+
+Top level modules:
+	enable_leds_01_tb
+
+} {} {}} D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/clocks_01/clocks_01_top.sv {1 {vlog -work work -vopt -sv -stats=none D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/clocks_01/clocks_01_top.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module clocks_01_top
+
+Top level modules:
+	clocks_01_top
+
+} {} {}} D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/enable_leds_02/enable_leds_02_top.sv {1 {vlog -work work -vopt -sv -stats=none D:/Projects/RoadToDMG01/Projects/STP20KExploration/design/enable_leds_02/enable_leds_02_top.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module enable_leds_02_top
+
+Top level modules:
+	enable_leds_02_top
+
+} {} {}}
