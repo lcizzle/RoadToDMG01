@@ -45,3 +45,4 @@ x Removed TDE10LiteExploration and TDE10NanoExploration getting distracted board
 * Added enable_leds_02 design to STP20KExploration
 * Setup Altair DSim Studio
 * Added enable_led_01_tb testbench to STP20KExploration
+* Added enable_leds_01_tb testbench to STP20KExploration
