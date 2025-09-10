@@ -4,15 +4,20 @@ module enable_leds_02(
     output logic [3:0]      leds_n
 );
 
-logic [3:0]     leds;
+timeunit 1ns;
+timeprecision 10ps;
 
     always_comb begin
-        leds[0] = ~(!btns_n[0]);
-        leds[1] = ~btns_n[1] && ~btns_n[0];
-        leds[2] = ~btns_n[1] || ~btns_n[0];
-        leds[3] = ~btns_n[1] ^  ~btns_n[0];
+        static logic a = ~btns_n[0];
+        static logic b = ~btns_n[1];
+        static logic [3:0] leds;
 
-        leds_n = ~leds;
+        leds[0] = !a;
+		leds[1] =  b && a;
+		leds[2] =  b || a;
+		leds[3] =  b ^  a;
+
+		leds_n = ~leds;
     end
 
 endmodule
