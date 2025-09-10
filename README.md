@@ -40,3 +40,6 @@ I'm not 100% sure what the target board will be yet but I am leaning in the dire
 * Added switches_01 design to TDE10LiteExploration
 x Removed TDE10LiteExploration and TDE10NanoExploration getting distracted board jumping.
 * Added clocks_01 design to STP20KExploration
+
+# Date 10/10/2025
+* Added enable_leds_02 design to STP20KExploration
