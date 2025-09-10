@@ -1,7 +1,9 @@
 # Altair DSim Studio
 dsim_work/
+dsim.env
 dvlcom.env
 dvlcom.log
+metrics.db
 
 # GoWin EDA
 impl/
