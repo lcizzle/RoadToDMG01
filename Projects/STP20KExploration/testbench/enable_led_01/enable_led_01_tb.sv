@@ -1,23 +1,23 @@
 // Enable LED 01 TB
 module enable_led_01_tb;
 
-bit led_n;
+timeunit 1ns;
+timeprecision 10ps;
 
-enable_led_01 enable_led_01_inst (.*);
+logic led_n;
 
-    // Stimulus
+enable_led_01 dut(.*);
+
     initial begin
-        #100
-        $display("PASS: LED enabled.");
-        $stop;
+        #10;
+        $display("PASS: LED enabled check passed. led_n=%b", led_n);
     end
 
-    //
     always @(led_n) begin
-        if(led_n !== 1'b0)
-            $display("FAIL: LED is not enabled.");
+        if(led_n != 1'b0) begin
+            $error("FAIL: LED not enabled. led_n=%1b", led_n);
             $stop;
+        end
     end
-
 
 endmodule
