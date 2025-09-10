@@ -10,6 +10,16 @@ simulations:
       -top work.enable_led_01_tb -L dut +acc+b -waves
       results/waves/enable_led_01_tb_waves.mxd -l
       results/logs/enable_led_01_tb.log
+  - name: enable_leds_01 - sim
+    options: >-
+      -top work.enable_leds_01_tb -L dut +acc+b -waves
+      results/waves/enable_leds_01_tb_waves.mxd -l
+      results/logs/enable_leds_01_tb.log
+  - name: enable_leds_02 - sim
+    options: >-
+      -top work.enable_leds_02_tb -L dut +acc+b -waves
+      results/waves/enable_leds_02_tb_waves.mxd -l
+      results/logs/enable_leds_02_tb.log
 source_files:
   - language: verilog
     path: ..\..\testbench\enable_led_01\enable_led_01_tb.sv
@@ -17,5 +27,11 @@ source_files:
     path: dsim_files_list_dut.txt
     library_name: dut
     file_list: relative-to-file
+  - language: verilog
+    path: ..\..\testbench\enable_leds_01\enable_leds_01_tb.sv
+  - language: verilog
+    path: ..\..\testbench\clock_01\clock_01_tb.sv
+  - language: verilog
+    path: ..\..\testbench\enable_leds_02\enable_leds_02_tb.sv
 library_search_paths:
   - $STD_LIBS\ieee93

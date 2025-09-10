@@ -1,3 +1,5 @@
 # Design Files
-..\..\design\enable_led_01\enable_led_01_top.sv
 ..\..\design\enable_led_01\enable_led_01.sv
+..\..\design\enable_leds_01\enable_leds_01.sv
+..\..\design\clocks_01\clocks_01.sv
+..\..\design\enable_leds_02\enable_leds_02.sv

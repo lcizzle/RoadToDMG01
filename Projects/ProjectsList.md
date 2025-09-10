@@ -14,3 +14,4 @@ STP20KExploration ((S)iPEED (T)ang (P)rimer 20K Exploration)
 * enable_leds_02
 * enable_led_01_tb
 * enable_leds_01_tb
+* enable_leds_02_tb
