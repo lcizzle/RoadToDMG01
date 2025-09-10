@@ -9,6 +9,10 @@ metrics.db
 impl/
 *.gprj.user
 
+#Siemen's Questa
+@_opt*/
+work/
+
 # Visual Studio Code
 .vscode/
 
