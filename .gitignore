@@ -1,3 +1,8 @@
+# Altair DSim Studio
+dsim_work/
+dvlcom.env
+dvlcom.log
+
 # GoWin EDA
 impl/
 *.gprj.user
