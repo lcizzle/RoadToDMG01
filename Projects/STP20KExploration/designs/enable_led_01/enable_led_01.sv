@@ -1,9 +1,10 @@
 // Enable LED 01
-module enable_led_01
-(
+module enable_led_01(
     output logic     led_n
 );
 
-assign led_n = 1'b0;
+always_comb begin
+	led_n = 1'b0;
+end
 
 endmodule

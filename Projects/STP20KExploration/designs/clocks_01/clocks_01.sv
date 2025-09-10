@@ -1,12 +1,10 @@
 // Clocks 01
-module clocks_01
-(
+module clocks_01(
     input logic     rst,
     output logic    clk
 );
 
-OSC osc_inst
-(
+OSC osc_inst(
     .OSCOUT(clk)
 );
 
