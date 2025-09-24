@@ -1,0 +1,16 @@
+# Altair DSim Studio
+dsim_work/
+dsim.env
+dvlcom.env
+dvlcom.log
+metrics.db
+
+# GoWin EDA
+*.gprj.user
+
+#Siemen's Questa
+@_opt*/
+work/
+
+# Visual Studio Code
+.vscode/
