@@ -1,4 +1,4 @@
 # Projects List
 
-DE10LEnableLEDS01
-DE10LBasicGates01
+TDE10LEnableLEDS01
+TDE10LBasicGates01
