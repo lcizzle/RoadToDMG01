@@ -13,8 +13,8 @@ module TDE10L24Decoder01(
 //=======================================================
 
 decoder24 decoder24_inst(
-	.i_A(SW[0]),
-	.i_B(SW[1]),
+	.i_A(SW[1]),
+	.i_B(SW[0]),
 	.i_OUT(LEDR[3:0])
 );
 
