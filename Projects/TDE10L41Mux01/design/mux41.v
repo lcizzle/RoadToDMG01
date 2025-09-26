@@ -10,7 +10,7 @@ module mux41(
 );
 
 
-wire [3:0] i_vec = {i_D, i_C, i_B, i_A};
+wire [3:0] i_vec = {i_A, i_B, i_C, i_D};
 assign o_OUT = i_vec[{i_SEL1, i_SEL0}];
 
 /* Second Pass
