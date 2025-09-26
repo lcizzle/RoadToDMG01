@@ -36,6 +36,7 @@ HDL of choice will be Verilog / SystemVerilog. At some point maybe we introduce 
 
 ###### GoWin EDA 
 * 1.9.12
+
 ###### GoWin Programmer
 * 1.9.12
 * 1.9.12 SP1
