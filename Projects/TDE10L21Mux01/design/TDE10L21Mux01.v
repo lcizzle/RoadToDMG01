@@ -12,22 +12,15 @@ module TDE10L21Mux01(
 //  REG/WIRE declarations
 //=======================================================
 
-wire out0;
-wire out1;
-
 mux21 mux21_inst(
 	.i_A(SW[1]),
 	.i_B(SW[2]),
 	.i_SEL(SW[0]),
-	.o_OUT0(out0),
-	.o_OUT1(out1)
+	.o_OUT(LEDR[0]),
 );
 
 //=======================================================
 //  Structural coding
 //=======================================================
-
-assign LEDR[0] = out0;
-assign LEDR[1] = out1;
 
 endmodule
